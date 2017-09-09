@@ -24,7 +24,7 @@ class School
     @roster.each do |key, array|
       array.sort
     end
-    @roster.sort.to_h
+    @roster
   end
 
 end
