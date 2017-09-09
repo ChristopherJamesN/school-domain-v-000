@@ -22,6 +22,7 @@ class School
 
   def sort
     @roster.each_value {|value| value.sort}
+    @roster.sort.to_h
   end
 
 end
